@@ -5,6 +5,7 @@ if [ ! -f ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json ]; then
 fi
 if [ ! -f ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml ]; then
     echo 生成guoba-plugin配置..
+    mkdir ./Miao-Yunzai/plugins/guoba-plugin/config
     wget -O ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml https://raw.githubusercontent.com/715494637/replit_Qbot/main/gupoba/application.yaml
 fi
 
