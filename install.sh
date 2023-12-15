@@ -17,7 +17,7 @@ echo 从Github拉取chatgpt插件
 git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/
 pnpm install --filter=chatgpt-plugin
 cd ..
-bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/blob/main/config.sh)
+bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
 echo 获取运行指令文件
 wget -O .replit https://github.com/715494637/replit_Qbot/blob/main/replit/.replit
 wget -O replit.nix https://github.com/715494637/replit_Qbot/blob/main/replit/replit.nix
