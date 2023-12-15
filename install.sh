@@ -19,9 +19,9 @@ pnpm install --filter=chatgpt-plugin
 cd ..
 bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
 echo 获取运行指令文件
-wget -O .replit https://github.com/715494637/replit_Qbot/blob/main/replit/.replit
-wget -O replit.nix https://github.com/715494637/replit_Qbot/blob/main/replit/replit.nix
-wget -O main.sh https://github.com/715494637/replit_Qbot/blob/main/main.sh
+wget -O .replit https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/.replit
+wget -O replit.nix https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/replit.nix
+wget -O main.sh https://raw.githubusercontent.com/715494637/replit_Qbot/main/main.sh
 echo 部署完成！单击Run或按下键盘上的Ctrl+Enter以启动本项目
 echo 若出现使用问题请参考文档 https://www.wolai.com/oA43vuW71aBnv7UsEysn4T
 echo 部署仓库开源地址：https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai
