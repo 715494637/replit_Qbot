@@ -1,0 +1,24 @@
+# 基础设置
+base:
+  # 获取天气的城市
+  city: 北京
+  guide: false
+  # 是否要自动检查更新
+  checkUpdate: true
+
+# 服务器配置
+server:
+  # 启动地址（仅用于控制台输出）
+  # auto 为自动获取IP地址
+  host: https://Qbot.715494637.repl.co
+  # 启动端口号
+  port: 8099
+  # 是否需要拼接端口号
+  splicePort: True
+  # 网站ICP备案号
+  ICPNo: ""
+
+# jwt配置
+jwt:
+  # JWT 秘钥（随机生成，非必要请勿修改！）
+  secret: "sya1wexlxavh8m9qnu7kkf4w0j3rd1p9"

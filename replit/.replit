@@ -1,0 +1,15 @@
+run = ["bash","main.sh"]
+
+[nix]
+channel = "stable-23_05"
+
+[env]
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+[[ports]]
+localPort = 8099
+externalPort = 8099
+
+[[ports]]
+localPort = 9000
+externalPort = 9000

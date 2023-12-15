@@ -1,0 +1,10 @@
+{
+  "imgOcr": false,
+  "initiativeChatGroups": [""],
+  "enableRobotAt": false,
+  "serverPort": 9000,
+  "serverHost": "",
+  "slackClaudeUserId": "0.5",
+  "enableGenerateContents": true,
+  "amapKey": ""
+}
