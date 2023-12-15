@@ -8,4 +8,4 @@ redis-server &  --port 6379
 node app
 
 # 适配配置可用
-# bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/blob/main/config.sh)
+# bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
