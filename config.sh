@@ -6,5 +6,5 @@ if [ ! -f ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml ]; then
     wget -O ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml https://raw.githubusercontent.com/715494637/replit_Qbot/main/gupoba/application.yaml
 fi
 
-sed -i 's|"serverHost": "[^"]*"|"serverHost": "https://'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co"|' config.json
-sed -i "s@host:.*@host: https://${REPL_SLUG}.${REPL_OWNER}.repl.co@" config.yaml
+sed -i 's|"serverHost": "[^"]*"|"serverHost": "https://'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
+sed -i "s@host:.*@host: https://${REPL_SLUG}.${REPL_OWNER}.repl.co@" ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml
