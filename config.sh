@@ -20,5 +20,4 @@ blue "已适配guoba-plugin配置.."
 echo  
 blue "获取运行指令文件"
 wget -O .replit https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/.replit
-wget -O replit.nix https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/replit.nix
 wget -O main.sh https://raw.githubusercontent.com/715494637/replit_Qbot/main/main.sh

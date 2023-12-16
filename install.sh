@@ -31,6 +31,7 @@ git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/
 pnpm install --filter=chatgpt-plugin
 cd ..
 bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
+wget -O replit.nix https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/replit.nix
 echo  
 yellow "部署完成！单击Run或按下键盘上的Ctrl+Enter以启动本项目"
 echo  
