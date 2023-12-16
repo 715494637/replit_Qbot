@@ -1,3 +1,8 @@
+export 
+green(){ echo -e "\033[32m\033[01m$1\033[0m";}
+yellow(){ echo -e "\033[33m\033[01m$1\033[0m";}
+blue(){ echo -e "\033[36m\033[01m$1\033[0m";}
+
 echo 
 yellow "插件配置文件生成/修改"
 if [ ! -f ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json ]; then
