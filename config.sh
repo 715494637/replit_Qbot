@@ -9,8 +9,10 @@ if [ ! -f ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml ]; then
     wget -O ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml https://raw.githubusercontent.com/715494637/replit_Qbot/main/gupoba/application.yaml
 fi
 
-sed -i 's|"serverHost": "[^"]*"|"serverHost": "https://'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
+sed -i 's|"serverHost": "[^"]*"|"serverHost": "https://'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co:9000"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
+sed -i 's|"serverPort": "[^"]*"|"serverPort": "9000"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
 echo blue "已适配chatgpt-plugin配置.."
 
 sed -i "s@host:.*@host: https://${REPL_SLUG}.${REPL_OWNER}.repl.co@" ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml
+sed -i "s@port:.*@port: 8099@" ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml
 echo blue "已适配guoba-plugin配置.."
