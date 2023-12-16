@@ -1,21 +1,21 @@
-export PATH="~/nginx/sbin:~/${REPL_SLUG}/python:$PATH"
+export 
 green(){ echo -e "\033[32m\033[01m$1\033[0m";}
 yellow(){ echo -e "\033[33m\033[01m$1\033[0m";}
 blue(){ echo -e "\033[36m\033[01m$1\033[0m";}
 
 echo  
-red "Replit Miao-Yunzai一键部署脚本"
+yellow "Replit Miao-Yunzai一键部署脚本"
 echo  
-red "op魔改版"
+yellow "op魔改版"
 echo  
-red "原仓库开源地址：https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai"
+yellow "原仓库开源地址：https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai"
 echo  
-red "本项目严禁商用，部署脚本开源于Github"
+yellow "本项目严禁商用，部署脚本开源于Github"
 echo  
 yellow "安装获取依赖文件需求环境"
 nix-env -iA nixpkgs.nodePackages.pnpm
 nix-env -iA nixpkgs.wget
-eecho  
+echo  
 blue "从Github拉取Miao-Yunzai文件"
 git clone --depth=1 https://github.com/yoimiya-kokomi/Miao-Yunzai.git
 cd Miao-Yunzai 
