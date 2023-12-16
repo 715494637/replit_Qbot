@@ -9,7 +9,7 @@ if [ ! -f ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json ]; then
     green "生成chatgpt-plugin配置.."
     wget -O ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json https://raw.githubusercontent.com/715494637/replit_Qbot/main/chatgpt/config.json
 fi
-sed -i 's|"serverHost": "[^"]*"|"serverHost": "'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
+sed -i 's|"serverHost": "[^"]*"|"serverHost": "'${REPL_SLUG}'.'${REPL_OWNER}'.repl.co:8099"|' ./Miao-Yunzai/plugins/chatgpt-plugin/config/config.json
 echo 
 blue "已适配chatgpt-plugin配置.."
 
