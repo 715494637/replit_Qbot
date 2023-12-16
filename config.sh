@@ -10,6 +10,7 @@ sed -i 's|"serverHost": "[^"]*"|"serverHost": "'${REPL_SLUG}'.'${REPL_OWNER}'.re
 echo 
 blue "已适配chatgpt-plugin配置.."
 
+rm -rf ./Miao-Yunzai/plugins/guoba-plugin/config/application.yaml
 sed -i "s@host:.*@host: https://${REPL_SLUG}.${REPL_OWNER}.repl.co@" ./Miao-Yunzai/plugins/guoba-plugin/defSet/application.yaml
 sed -i "s@port:.*@port: 9000@" ./Miao-Yunzai/plugins/guoba-plugin/defSet/application.yaml
 echo 
