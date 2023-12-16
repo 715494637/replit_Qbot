@@ -1,13 +1,14 @@
 # replit_Qbot
 
-一键云崽+chatgpt-plugin+guoba-plugin修改配置
+一键云崽+chatgpt插件+guoba插件配置适配
 https://raw.githubusercontent.com/715494637/replit_Qbot/main/install.sh
 ```
 bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/install.sh)
 ```
-chatgpt-plugin+guoba-plugin修改配置
+chatgpt插件+锅巴插件配置适配
 ```
 bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
 ```
 
-自用改..
+原项目项目:
+https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai
