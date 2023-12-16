@@ -7,5 +7,12 @@ redis-server &  --port 6379
 #启动Miao-Yunzai（此处也可使用pnpm start使项目后台运行）
 node app
 
+
+
+# 一直stopping，可手动关闭redis(看日志pid)
+# kill 9 {pid}
+
 # 适配配置可用
 # bash <(curl -s https://raw.githubusercontent.com/715494637/replit_Qbot/main/config.sh)
+# chatgpt插件端口将被改为9000
+# 锅巴插件端口将被改为8099
