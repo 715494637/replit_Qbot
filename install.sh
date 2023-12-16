@@ -36,7 +36,11 @@ blue "获取运行指令文件"
 wget -O .replit https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/.replit
 wget -O replit.nix https://raw.githubusercontent.com/715494637/replit_Qbot/main/replit/replit.nix
 wget -O main.sh https://raw.githubusercontent.com/715494637/replit_Qbot/main/main.sh
-echo 部署完成！单击Run或按下键盘上的Ctrl+Enter以启动本项目
-echo 若出现使用问题请参考文档 https://www.wolai.com/oA43vuW71aBnv7UsEysn4T
-echo 部署仓库开源地址：https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai
-echo 本项目严禁商用，部署脚本开源于Github
+echo  
+yellow "部署完成！单击Run或按下键盘上的Ctrl+Enter以启动本项目"
+echo  
+yellow "若出现使用问题请参考文档 https://www.wolai.com/oA43vuW71aBnv7UsEysn4T"
+echo  
+yellow "部署仓库开源地址：https://github.com/yzsong06/Replit-Nodejs-MiaoYunzai"
+echo  
+yellow "本项目严禁商用，部署脚本开源于Github"
